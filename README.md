@@ -16,7 +16,7 @@
 - [Portfolio](https://your-portfolio-link.com)
 - [LinkedIn](https://www.linkedin.com/in/muhammad-rakib2299)
 
-- ![](https://komarev.com/ghpvc/?muhammadrakib2299=your-github-muhammadrakib2299&abbreviated=true)
+![](https://komarev.com/ghpvc/?muhammadrakib2299=your-github-username)
  
   Feel free to connect with me!
 
