@@ -1,4 +1,4 @@
-# 💻 Muhammad Rakib | Full Stack Developer & Tech Enthusiast 🚀  
+# 💻 Md. Rakib | Full Stack Developer & Tech Enthusiast 🚀  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/muhammad-rakib2299/)  
 ![Profile Views](https://komarev.com/ghpvc/?username=muhammadrakib2299&label=Profile+Views&color=blue&style=for-the-badge)
