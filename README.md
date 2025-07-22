@@ -8,6 +8,7 @@
 Hi there! I'm **Muhammad Rakib**, a passionate **Full Stack Developer** and a Computer Science graduate from **Daffodil International University**. I love crafting **scalable web applications**, optimizing **frontend experiences**, and exploring **modern technologies**.  
 
 🔹 **Javascript & Python Enthusiast** 
+
 🔹 ** Open Source Contributor** 
 
 ---
