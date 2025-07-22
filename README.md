@@ -7,8 +7,8 @@
 ### 🚀 About Me  
 Hi there! I'm **Muhammad Rakib**, a passionate **Full Stack Developer** and a Computer Science graduate from **Daffodil International University**. I love crafting **scalable web applications**, optimizing **frontend experiences**, and exploring **modern technologies**.  
 
-🔹 **Aspiring Odoo Developer & Python Enthusiast** 🐍  
-🔹 **Freelancer | Open Source Contributor** 🌍  
+🔹 **Javascript & Python Enthusiast** 
+🔹 ** Open Source Contributor** 
 
 ---
 
