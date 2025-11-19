@@ -38,7 +38,7 @@ Check out my repositories 👉 [GitHub Profile](https://github.com/muhammadrakib
 ### 📫 Let's Connect!  
 💼 LinkedIn: [Muhammad Rakib](https://www.linkedin.com/in/muhammad-rakib2299/)  
 📧 Email: [muhammadrakib2299@gmail.com](mailto:muhammadrakib2299@gmail.com)  
-🚀 Portfolio (Coming Soon...)  
+🚀 Portfolio: [https://devrakib.com/]
 
 ---
 
