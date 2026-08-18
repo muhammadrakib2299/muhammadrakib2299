@@ -1,0 +1,128 @@
+# Generates the images used by the profile README (stats cards, pinned-repo
+# cards and the contribution snake) inside GitHub Actions and publishes them
+# to the `output` branch, so the README never depends on a third-party server.
+#
+# Runs every day at 00:00 UTC, on manual dispatch, and whenever this file changes.
+
+name: Update profile assets
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-assets.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+env:
+  USER: muhammadrakib2299
+  THEME: tokyonight
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # ───────────────────────── Stats cards ─────────────────────────
+      - name: Stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=${{ env.USER }}&show_icons=true&theme=${{ env.THEME }}&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&card_width=420"
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=${{ env.USER }}&layout=compact&theme=${{ env.THEME }}&hide_border=true&langs_count=10&hide=html,css,ejs,scss&card_width=420"
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      # ───────────────────────── Pinned-repo cards ─────────────────────────
+      - name: Pin — ClinicPilot
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: "username=${{ env.USER }}&repo=clinicpilot&theme=${{ env.THEME }}&hide_border=true&show_owner=false"
+          path: dist/pin-clinicpilot.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Pin — InsightFlow
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: "username=${{ env.USER }}&repo=InsightFlow-Real-Time-Business-Analytics-with-Ml&theme=${{ env.THEME }}&hide_border=true&show_owner=false"
+          path: dist/pin-insightflow.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Pin — AI LeadGen OS
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: "username=${{ env.USER }}&repo=AI-LeadGen-OS&theme=${{ env.THEME }}&hide_border=true&show_owner=false"
+          path: dist/pin-ai-leadgen-os.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Pin — VerifyAI
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: "username=${{ env.USER }}&repo=VerifyAI-fake-news-detector&theme=${{ env.THEME }}&hide_border=true&show_owner=false"
+          path: dist/pin-verifyai.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Pin — MalVis
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: "username=${{ env.USER }}&repo=MalVis-Malware-Feature-Visualization-Dashboard-Python&theme=${{ env.THEME }}&hide_border=true&show_owner=false"
+          path: dist/pin-malvis.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Pin — BanglaHealth-AI
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: "username=${{ env.USER }}&repo=BanglaHealth-AI&theme=${{ env.THEME }}&hide_border=true&show_owner=false"
+          path: dist/pin-banglahealth-ai.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      # ───────────────────────── Contribution snake ─────────────────────────
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ env.USER }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # ───────────────────────── Publish ─────────────────────────
+      - name: Publish to the `output` branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          jekyll: false
+          author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+          commit_message: "chore: refresh profile assets"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
