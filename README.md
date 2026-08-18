@@ -1,7 +1,7 @@
 <!-- ───────────────────────────── HEADER ───────────────────────────── -->
 <a name="top"></a>
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,45:3d59a1,100:bb9af7&height=220&section=header&text=Md.%20Rakib&fontSize=68&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Full-Stack%20%26%20AI%20Engineer%20%E2%80%A2%20SaaS%20Builder&descSize=22&descAlignY=58&descColor=e0e7ff" width="100%" alt="Md. Rakib — Full-Stack & AI Engineer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,45:3d59a1,100:bb9af7&height=220&section=header&text=Md.%20Rakib&fontSize=68&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Full-Stack%20Developer%20%E2%80%A2%20AI%20%E2%80%A2%20SaaS%20Builder&descSize=22&descAlignY=58&descColor=e0e7ff" width="100%" alt="Md. Rakib — Full-Stack & AI Engineer" />
 </p>
 
 <p align="center">
