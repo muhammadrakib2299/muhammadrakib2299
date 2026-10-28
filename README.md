@@ -219,10 +219,6 @@ I'm **Muhammad Rakib** — a full-stack engineer from **Dhaka, Bangladesh 🇧�
 </p>
 
 <p align="center">
-  <a href="https://github.com/muhammadrakib2299"><img src="https://github-readme-activity-graph.vercel.app/graph?username=muhammadrakib2299&theme=tokyo-night&hide_border=true&area=true&radius=10&custom_title=Contribution%20Activity" width="100%" alt="Contribution activity graph" /></a>
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhammadrakib2299/muhammadrakib2299/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhammadrakib2299/muhammadrakib2299/output/github-snake.svg" />
