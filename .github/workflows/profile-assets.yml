@@ -92,7 +92,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: "username=${{ env.USER }}&repo=MalVis-Malware-Feature-Visualization-Dashboard-Python&theme=${{ env.THEME }}&hide_border=true&show_owner=false"
+          options: "username=${{ env.USER }}&repo=MalVis&theme=${{ env.THEME }}&hide_border=true&show_owner=false"
           path: dist/pin-malvis.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true

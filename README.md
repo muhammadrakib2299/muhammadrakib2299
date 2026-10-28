@@ -148,7 +148,7 @@ I'm **Muhammad Rakib** — a full-stack engineer from **Dhaka, Bangladesh 🇧�
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/muhammadrakib2299/MalVis-Malware-Feature-Visualization-Dashboard-Python">
+      <a href="https://github.com/muhammadrakib2299/MalVis">
         <img src="https://raw.githubusercontent.com/muhammadrakib2299/muhammadrakib2299/output/pin-malvis.svg" alt="MalVis" />
       </a>
     </td>
@@ -170,21 +170,21 @@ I'm **Muhammad Rakib** — a full-stack engineer from **Dhaka, Bangladesh 🇧�
 | **[ClinicPilot](https://github.com/muhammadrakib2299/clinicpilot)** | Multi-tenant SaaS control plane to deploy, orchestrate & monitor healthcare AI agents — Claude tool-use, n8n workflows, FHIR/EHR, RBAC + audit trail | React · NestJS · FastAPI · Postgres · Turborepo |
 | **[AgentFleet](https://github.com/muhammadrakib2299/AgentFleet)** | Multi-agent orchestration platform — visual agent design, agent-to-agent handoffs, durable jobs, live trace viewer with cost/eval metrics | Python · FastAPI · Postgres · React |
 | **[VerifyAI](https://github.com/muhammadrakib2299/VerifyAI-fake-news-detector)** | Fake-news detector — 7-signal pipeline, fine-tuned RoBERTa (97%+ acc. on 80K+ articles), source credibility, fact-check API, LIME + Claude explanations, 12 languages | Next.js · FastAPI · Transformers |
-| **[MalVis](https://github.com/muhammadrakib2299/MalVis-Malware-Feature-Visualization-Dashboard-Python)** | Explainable malware detection dashboard (PE files) — RF vs XGBoost, SHAP/LIME, adversarial what-ifs; companion to a published research paper | Python · FastAPI · React |
+| **[MalVis](https://github.com/muhammadrakib2299/MalVis)** | Explainable malware detection dashboard (PE files) — RF vs XGBoost, SHAP/LIME, adversarial what-ifs; companion to a published research paper | Python · FastAPI · React |
 | **[BanglaHealth-AI](https://github.com/muhammadrakib2299/BanglaHealth-AI)** | Explainable risk stratification (diabetes & heart disease) for low-resource clinics — SHAP explanations, what-if analysis | Scikit-learn · FastAPI · Streamlit · Docker |
 | **[BanglaHealth HMS + AI](https://github.com/muhammadrakib2299/BanglaHealth-HMS-AI-Dashboard)** | Smart hospital management system with AI clinical decision support and X-ray pneumonia detection | Next.js · FastAPI · Postgres |
 | **[PneumoScan](https://github.com/muhammadrakib2299/PneumoScan)** | Multi-class pneumonia detection from chest X-rays — 5 CNN backbones + ensemble, Grad-CAM/LIME, Gradio demo, TFLite export | TensorFlow · Keras |
 | **[InsightFlow](https://github.com/muhammadrakib2299/InsightFlow-Real-Time-Business-Analytics-with-Ml)** | Self-hostable real-time BI — event ingestion, ClickHouse, Prophet/ARIMA forecasting, anomaly alerts, cohorts & funnels, PDF reports | Next.js · Node · Python · ClickHouse · Redis |
 | **[BrainBoost](https://github.com/muhammadrakib2299/BrainBoost-AI-Study-Coach)** | AI study coach — Claude vision OCR, flashcards & quizzes, FSRS spaced repetition, tutor chat, exam-readiness dashboard | Next.js · Prisma · Claude API |
-| **[VidLens](https://github.com/muhammadrakib2299/vidlens---report-generate-from-video-)** | Local video-analysis pipeline — key frames → Whisper → Claude vision → searchable report | Python · OpenCV · Whisper · Claude |
+| **[VidLens](https://github.com/muhammadrakib2299/VidLens)** | Local video-analysis pipeline — key frames → Whisper → Claude vision → searchable report | Python · OpenCV · Whisper · Claude |
 
 ### 🧩 SaaS · Platforms · Full-Stack
 | Project | What it is | Stack |
 |---|---|---|
 | **[AI LeadGen OS](https://github.com/muhammadrakib2299/AI-LeadGen-OS)** | GDPR-compliant B2B lead-generation platform — NL query → discovery, enrichment, verification, scoring, RAG ask-mode, CRM export · 334 tests | FastAPI · Postgres · arq · Stripe |
 | **[Hotel Booking Management System](https://github.com/muhammadrakib2299/Hotel-Booking-Management-System)** | Multi-hotel booking platform — RBAC, real-time chat, wallet + bKash/Nagad/card payments, premium subscriptions | Laravel 12 · MySQL · Tailwind |
-| **[HireBangla](https://github.com/muhammadrakib2299/HireBangla---job-searching-platform)** | Job-search platform for Bangladesh — Turborepo monorepo, Docker Compose, CI | Next.js · TypeScript |
-| **[Site2Book](https://github.com/muhammadrakib2299/Site2Book---python)** | Any website → clean PDF eBook with cover, TOC & bookmarks; SSE progress | FastAPI · Playwright · Next.js |
+| **[HireBangla](https://github.com/muhammadrakib2299/HireBangla)** | Job-search platform for Bangladesh — Turborepo monorepo, Docker Compose, CI | Next.js · TypeScript |
+| **[Site2Book](https://github.com/muhammadrakib2299/Site2Book)** | Any website → clean PDF eBook with cover, TOC & bookmarks; SSE progress | FastAPI · Playwright · Next.js |
 | **[LumiPure API](https://github.com/muhammadrakib2299/LumiPure-backend)** | Beauty e-commerce REST API — JWT auth, Cloudinary uploads, admin products | Node · Express · MongoDB |
 | **[TikTok FBT plan](https://github.com/muhammadrakib2299/tiktok-fbt-microservice)** | Architecture & phased rollout plan for Fulfilled-by-TikTok inside WMS360 | Docs · Mockups |
 
